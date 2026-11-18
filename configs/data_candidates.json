@@ -1,0 +1,328 @@
+[
+  {
+    "source_id": "oga_idylwild_arsenal",
+    "kind": "oga",
+    "source_url": "https://opengameart.org/content/idylwilds-arsenal",
+    "downloads": [
+      "https://opengameart.org/sites/default/files/idylwilds_arsenal.zip"
+    ],
+    "review_status": "active_review",
+    "review_priority": "style_reference"
+  },
+  {
+    "source_id": "oga_idylwild_aerial",
+    "kind": "oga",
+    "source_url": "https://opengameart.org/content/idylwilds-aerial-arsenal",
+    "downloads": [
+      "https://opengameart.org/sites/default/files/idylwilds_aerial_arsenal.zip"
+    ],
+    "review_status": "active_review",
+    "review_priority": "style_reference"
+  },
+  {
+    "source_id": "oga_idylwild_armory",
+    "kind": "oga",
+    "source_url": "https://opengameart.org/content/idylwilds-armory",
+    "downloads": [
+      "https://opengameart.org/sites/default/files/idylwilds_armory.zip"
+    ],
+    "review_status": "active_review",
+    "review_priority": "style_reference"
+  },
+  {
+    "source_id": "oga_idylwild_inventory",
+    "kind": "oga",
+    "source_url": "https://opengameart.org/content/idylwilds-inventory",
+    "downloads": [
+      "https://opengameart.org/sites/default/files/idylwilds_inventory.zip"
+    ],
+    "review_status": "active_review",
+    "review_priority": "style_reference"
+  },
+  {
+    "source_id": "oga_idylwild_arcanum",
+    "kind": "oga",
+    "source_url": "https://opengameart.org/content/idylwilds-arcanum",
+    "downloads": [
+      "https://opengameart.org/sites/default/files/idylwilds_arcanum.zip"
+    ],
+    "review_status": "active_review",
+    "review_priority": "style_reference"
+  },
+  {
+    "source_id": "oga_icons32",
+    "kind": "oga",
+    "source_url": "https://opengameart.org/content/icons32x32",
+    "downloads": [
+      "https://opengameart.org/sites/default/files/icons_32x32_7.png"
+    ],
+    "review_status": "active_review",
+    "review_priority": "additional_review"
+  },
+  {
+    "source_id": "oga_rpg_ui",
+    "kind": "oga",
+    "source_url": "https://opengameart.org/content/rpg-ui-icons",
+    "downloads": [
+      "https://opengameart.org/sites/default/files/RPG_Icons_Pack_OwlishMedia.zip"
+    ],
+    "review_status": "deferred_ui_symbols",
+    "review_priority": "additional_review",
+    "removed_archive_path": "data/archive/2026-11-18_cleanup/raw/oga_rpg_ui",
+    "storage_status": "deleted_by_user_cleanup"
+  },
+  {
+    "source_id": "oga_rpg_base",
+    "kind": "oga",
+    "source_url": "https://opengameart.org/content/rpg-icon-base-pack",
+    "downloads": [
+      "https://opengameart.org/sites/default/files/rpg-icons-base-back.zip"
+    ],
+    "review_status": "photo_based_outside_current_pixel_pool",
+    "review_priority": "additional_review",
+    "removed_archive_path": "data/archive/2026-11-18_cleanup/raw/oga_rpg_base",
+    "storage_status": "deleted_by_user_cleanup"
+  },
+  {
+    "source_id": "oga_items32",
+    "kind": "oga",
+    "source_url": "https://opengameart.org/content/32x32-items",
+    "downloads": [
+      "https://opengameart.org/sites/default/files/itemiconpack32.png"
+    ],
+    "review_status": "deferred_fixed_background_style",
+    "review_priority": "additional_review",
+    "removed_archive_path": "data/archive/2026-11-18_cleanup/raw/oga_items32",
+    "storage_status": "deleted_by_user_cleanup"
+  },
+  {
+    "source_id": "oga_basic_remix",
+    "kind": "oga",
+    "source_url": "https://opengameart.org/content/basic-rpg-item-icons-remix",
+    "downloads": [
+      "https://opengameart.org/sites/default/files/icons_20211222.zip"
+    ],
+    "review_status": "deferred_rendered_style",
+    "review_priority": "additional_review",
+    "removed_archive_path": "data/archive/2026-11-18_cleanup/raw/oga_basic_remix",
+    "storage_status": "deleted_by_user_cleanup"
+  },
+  {
+    "source_id": "kenney_rpg",
+    "kind": "kenney",
+    "source_url": "https://kenney.nl/assets/roguelike-rpg-pack",
+    "review_status": "deferred_scope_or_style",
+    "review_priority": "additional_review",
+    "removed_archive_path": "data/archive/2026-11-18_cleanup/raw/kenney_rpg",
+    "storage_status": "deleted_by_user_cleanup"
+  },
+  {
+    "source_id": "kenney_rpg_base",
+    "kind": "kenney",
+    "source_url": "https://kenney.nl/assets/rpg-base",
+    "review_status": "deferred_scope_or_style",
+    "review_priority": "additional_review",
+    "removed_archive_path": "data/archive/2026-11-18_cleanup/raw/kenney_rpg_base",
+    "storage_status": "deleted_by_user_cleanup"
+  },
+  {
+    "source_id": "kenney_monochrome",
+    "kind": "kenney",
+    "source_url": "https://kenney.nl/assets/monochrome-rpg",
+    "review_status": "deferred_scope_or_style",
+    "review_priority": "additional_review",
+    "removed_archive_path": "data/archive/2026-11-18_cleanup/raw/kenney_monochrome",
+    "storage_status": "deleted_by_user_cleanup"
+  },
+  {
+    "source_id": "kenney_1bit",
+    "kind": "kenney",
+    "source_url": "https://kenney.nl/assets/1-bit-pack",
+    "review_status": "deferred_scope_or_style",
+    "review_priority": "additional_review",
+    "removed_archive_path": "data/archive/2026-11-18_cleanup/raw/kenney_1bit",
+    "storage_status": "deleted_by_user_cleanup"
+  },
+  {
+    "source_id": "hf_pixelart172k",
+    "kind": "hf",
+    "source_url": "https://huggingface.co/datasets/azyg0s/pixelart-172k",
+    "repo_id": "azyg0s/pixelart-172k",
+    "review_status": "active_review",
+    "review_priority": "synthetic_candidate_not_training_approved",
+    "removed_archive_path": "data/archive/2026-11-18_cleanup/raw/hf_pixelart172k",
+    "storage_status": "sample_restored_for_reassessment"
+  },
+  {
+    "source_id": "hf_atlas",
+    "kind": "hf",
+    "source_url": "https://huggingface.co/datasets/Angais/pixel-art-atlas-1.4m",
+    "repo_id": "Angais/pixel-art-atlas-1.4m",
+    "review_status": "not_selected_synthetic_source",
+    "review_priority": "additional_review",
+    "removed_archive_path": "data/archive/2026-11-18_cleanup/raw/hf_atlas",
+    "storage_status": "deleted_by_user_cleanup"
+  },
+  {
+    "source_id": "hf_pixelgpt",
+    "kind": "hf",
+    "source_url": "https://huggingface.co/datasets/unstonio/pixelgpt-24x24-20k",
+    "repo_id": "unstonio/pixelgpt-24x24-20k",
+    "review_status": "rejected_by_user_image_quality",
+    "review_priority": "do_not_collect",
+    "removed_archive_path": "data/archive/2026-11-18_cleanup/raw/hf_pixelgpt",
+    "storage_status": "deleted_by_user_cleanup"
+  },
+  {
+    "source_id": "hf_krea16",
+    "kind": "hf",
+    "source_url": "https://huggingface.co/datasets/Angais/krea-2-pixelart-16x16-synthetic",
+    "repo_id": "Angais/krea-2-pixelart-16x16-synthetic",
+    "review_status": "active_review",
+    "review_priority": "synthetic_candidate_not_training_approved",
+    "removed_archive_path": "data/archive/2026-11-18_cleanup/raw/hf_krea16",
+    "storage_status": "sample_restored_for_reassessment"
+  },
+  {
+    "source_id": "dcss_cc0",
+    "kind": "github",
+    "source_url": "https://github.com/crawl/tiles",
+    "review_status": "active_review",
+    "review_priority": "additional_review"
+  },
+  {
+    "source_id": "oga_food_cc0",
+    "kind": "oga",
+    "source_url": "https://opengameart.org/content/cc0-food-icons",
+    "downloads": [
+      "https://opengameart.org/sites/default/files/food-ocal_0.zip",
+      "https://opengameart.org/sites/default/files/food-7soul1_20201212.zip",
+      "https://opengameart.org/sites/default/files/food-arlantr_20201229.zip",
+      "https://opengameart.org/sites/default/files/food-bluecarrot16_20201221_0.zip",
+      "https://opengameart.org/sites/default/files/food-dcss_20201222.zip",
+      "https://opengameart.org/sites/default/files/food-fleurman_0.zip",
+      "https://opengameart.org/sites/default/files/food-glitch_0.zip",
+      "https://opengameart.org/sites/default/files/food-homohikka.zip",
+      "https://opengameart.org/sites/default/files/food-jetrel_20201222.zip",
+      "https://opengameart.org/sites/default/files/food-melle_0.zip",
+      "https://opengameart.org/sites/default/files/food-thekingphoenix_0.zip",
+      "https://opengameart.org/sites/default/files/food-wikimedia_20230225.zip",
+      "https://opengameart.org/sites/default/files/food-other_20230225.zip"
+    ],
+    "review_status": "active_review",
+    "review_priority": "additional_review",
+    "deferred_downloads": [
+      "https://opengameart.org/sites/default/files/food-ocal_0.zip",
+      "https://opengameart.org/sites/default/files/food-glitch_0.zip",
+      "https://opengameart.org/sites/default/files/food-wikimedia_20230225.zip"
+    ]
+  },
+  {
+    "source_id": "oga_tool_cc0",
+    "kind": "oga",
+    "source_url": "https://opengameart.org/content/cc0-tool-icons",
+    "downloads": [
+      "https://opengameart.org/sites/default/files/tool-ocal_20230225.zip",
+      "https://opengameart.org/sites/default/files/tool-7soul1_20201222.zip",
+      "https://opengameart.org/sites/default/files/tool-antumdeluge.zip",
+      "https://opengameart.org/sites/default/files/tool-dcss_20201226.zip",
+      "https://opengameart.org/sites/default/files/tool-facadegaikan.zip",
+      "https://opengameart.org/sites/default/files/tool-fleurman_20201226.zip",
+      "https://opengameart.org/sites/default/files/tool-thekingphoenix.zip",
+      "https://opengameart.org/sites/default/files/tool-yd.zip",
+      "https://opengameart.org/sites/default/files/tool-wikimedia_20240710.zip"
+    ],
+    "review_status": "active_review",
+    "review_priority": "additional_review",
+    "deferred_downloads": [
+      "https://opengameart.org/sites/default/files/tool-ocal_20230225.zip",
+      "https://opengameart.org/sites/default/files/tool-wikimedia_20240710.zip"
+    ]
+  },
+  {
+    "source_id": "oga_mineral_cc0",
+    "kind": "oga",
+    "source_url": "https://opengameart.org/content/cc0-mineral-icons",
+    "downloads": [
+      "https://opengameart.org/sites/default/files/mineral-ocal_20210112.zip",
+      "https://opengameart.org/sites/default/files/mineral-7soul1_20210112.zip",
+      "https://opengameart.org/sites/default/files/mineral-dcss_20201230.zip",
+      "https://opengameart.org/sites/default/files/mineral-thekingphoenix_20210112.zip"
+    ],
+    "review_status": "active_review",
+    "review_priority": "additional_review",
+    "deferred_downloads": [
+      "https://opengameart.org/sites/default/files/mineral-ocal_20210112.zip"
+    ]
+  },
+  {
+    "source_id": "oga_gem_cc0",
+    "kind": "oga",
+    "source_url": "https://opengameart.org/content/cc0-gem-icons",
+    "downloads": [
+      "https://opengameart.org/sites/default/files/gem-ocal_0.zip",
+      "https://opengameart.org/sites/default/files/gem-7soul1_20201212.zip",
+      "https://opengameart.org/sites/default/files/gem-ettingrinder.zip",
+      "https://opengameart.org/sites/default/files/gem-firestorm200_20201230.zip",
+      "https://opengameart.org/sites/default/files/gem-melle_0.zip",
+      "https://opengameart.org/sites/default/files/gem-rcorre.zip",
+      "https://opengameart.org/sites/default/files/gem-software_atelier.zip",
+      "https://opengameart.org/sites/default/files/gem-spriteattack.zip",
+      "https://opengameart.org/sites/default/files/gem-thekingphoenix.zip"
+    ],
+    "review_status": "active_review",
+    "review_priority": "additional_review",
+    "deferred_downloads": [
+      "https://opengameart.org/sites/default/files/gem-ocal_0.zip"
+    ]
+  },
+  {
+    "source_id": "oga_ingot_cc0",
+    "kind": "oga",
+    "source_url": "https://opengameart.org/content/cc0-ingot-icons",
+    "downloads": [
+      "https://opengameart.org/sites/default/files/ingot-ocal_20201227.zip",
+      "https://opengameart.org/sites/default/files/ingot-7soul1_20201227.zip",
+      "https://opengameart.org/sites/default/files/ingot-thekingphoenix_20201227_0.zip"
+    ],
+    "review_status": "active_review",
+    "review_priority": "additional_review",
+    "deferred_downloads": [
+      "https://opengameart.org/sites/default/files/ingot-ocal_20201227.zip"
+    ]
+  },
+  {
+    "source_id": "oga_27items",
+    "kind": "oga",
+    "source_url": "https://opengameart.org/content/27-items-icons",
+    "downloads": [
+      "https://opengameart.org/sites/default/files/items_31.png"
+    ],
+    "review_status": "deferred_framed_style",
+    "review_priority": "additional_review",
+    "removed_archive_path": "data/archive/2026-11-18_cleanup/raw/oga_27items",
+    "storage_status": "deleted_by_user_cleanup"
+  },
+  {
+    "source_id": "oga_20icons",
+    "kind": "oga",
+    "source_url": "https://opengameart.org/content/20-pixel-art-icons",
+    "downloads": [
+      "https://opengameart.org/sites/default/files/pixel_art_icons_-by_acasas-.zip"
+    ],
+    "review_status": "active_review",
+    "review_priority": "additional_review"
+  },
+  {
+    "source_id": "oga_inventory_filter",
+    "kind": "oga",
+    "source_url": "https://opengameart.org/content/inventory-filter-icons",
+    "downloads": [
+      "https://opengameart.org/sites/default/files/inventory_icons.zip"
+    ],
+    "review_status": "deferred_ui_symbols",
+    "review_priority": "additional_review",
+    "removed_archive_path": "data/archive/2026-11-18_cleanup/raw/oga_inventory_filter",
+    "storage_status": "deleted_by_user_cleanup"
+  }
+]
