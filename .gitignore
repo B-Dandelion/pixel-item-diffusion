@@ -1,11 +1,24 @@
+# Python
 .venv/
 __pycache__/
 *.pyc
+
+# Dataset
 data/raw/
 data/processed/
+*.zip
+
+# Model checkpoints
 checkpoints/
-results/*.csv
-results/samples/
+runs/
 *.pt
 *.pth
 *.safetensors
+
+# Generated results
+results/*.csv
+results/samples/
+
+# Windows
+Thumbs.db
+Desktop.ini
