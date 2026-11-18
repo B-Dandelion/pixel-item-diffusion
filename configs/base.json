@@ -1,0 +1,17 @@
+{
+  "experiment_name": "ddpm_pixel_items_baseline",
+  "seed": 42,
+  "image_size": 32,
+  "base_channels": 64,
+  "channel_multipliers": [1, 2, 4],
+  "diffusion_steps": 1000,
+  "batch_size_initial": 32,
+  "learning_rate_initial": 0.0002,
+  "epochs_initial": 200,
+  "checkpoint_every_epochs": 10,
+  "sample_every_epochs": 10,
+  "fixed_sample_seed": 42,
+  "classes_planned": ["weapon", "potion", "food", "material"],
+  "class_conditioning_status": "pending_course_scope_check",
+  "channel_format_status": "pending_rgba_vs_rgb_decision"
+}

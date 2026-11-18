@@ -1,0 +1,10 @@
+source_id,source_name,source_url,license_claim,download_status,license_review_status,notes
+oga_rpg496,496 RPG Icons,https://opengameart.org/content/496-pixel-art-icons-for-medievalfantasy-rpg,CC0,not_downloaded,pending,Exclude derivative works and verify original pack
+oga_idylwild_arsenal,Idylwild Arsenal,https://opengameart.org/content/idylwilds-arsenal,CC0,not_downloaded,pending,50 32x32 icons
+oga_idylwild_aerial,Idylwild Aerial Arsenal,https://opengameart.org/content/idylwilds-aerial-arsenal,CC0,not_downloaded,pending,109 32x32 icons
+oga_idylwild_armory,Idylwild Armory,https://opengameart.org/content/idylwilds-armory,CC0,not_downloaded,pending,50 32x32 icons
+oga_idylwild_inventory,Idylwild Inventory,https://opengameart.org/content/idylwilds-inventory,CC0,not_downloaded,pending,50 32x32 icons
+oga_idylwild_arcanum,Idylwild Arcanum,https://opengameart.org/content/idylwilds-arcanum,CC0,not_downloaded,pending,50 32x32 icons
+dcss_items,Dungeon Crawl Stone Soup item tiles,https://github.com/crawl/crawl,most_CC0_some_unclear,not_downloaded,pending,Requires file-level review against crawl/tiles
+kenney_rpg,Kenney Roguelike RPG Pack,https://kenney.nl/assets/roguelike-rpg-pack,CC0,not_downloaded,pending,Most files are tiles and other assets; source size 16x16
+niko_1bit,Nikoichu 1-bit Pixel Icons,https://nikoichu.itch.io/pixel-icons,CC0,not_downloaded,pending,16x16 monochrome; separate style

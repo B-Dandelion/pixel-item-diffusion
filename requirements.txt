@@ -1,0 +1,7 @@
+numpy>=1.26
+Pillow>=10.0
+pandas>=2.1
+matplotlib>=3.8
+tqdm>=4.66
+
+# torch와 torchvision은 설치 전에 CUDA 버전을 선택해야 하므로 README의 공식 명령으로 별도 설치합니다.

@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+data/raw/
+data/processed/
+checkpoints/
+results/*.csv
+results/samples/
+*.pt
+*.pth
+*.safetensors
