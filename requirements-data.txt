@@ -1,0 +1,2 @@
+# Optional: read original HF Parquet image bytes for category-based collection.
+pyarrow>=18,<24

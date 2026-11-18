@@ -57,7 +57,7 @@ def category(path, sid, metadata):
     if sid == "496_RPG_icons":
         return infer_category(path.name)
     if sid.startswith("hf_"):
-        return "label:" + str(metadata.get("category", metadata.get("group", metadata.get("subject", "unknown"))))
+        return "label:" + str(metadata.get("item_class", metadata.get("category", metadata.get("group", metadata.get("subject", "unknown")))))
     if sid == "dcss_cc0":
         part = path.as_posix().split("/item/")[-1].split("/")[0]
         return {"armour":"armor_shield", "amulet":"accessory", "ring":"accessory", "staff":"weapon",
@@ -129,7 +129,7 @@ def inspect(path, sid, metadata=None, allow_synthetic_review=False):
             if sid == "oga_items32" and row["uniform"]:
                 row["role"] = "uniform_background_cell"
             if sid.startswith("hf_"):
-                row["role"] = "synthetic_sample"
+                row["role"] = "synthetic_item_candidate" if metadata.get("item_class") else "synthetic_sample"
                 row["final_inclusion"] = ("pending_synthetic_review_not_training_approved" if allow_synthetic_review
                                           else "research_only_excluded_by_user_policy")
             flags = list(metadata.get("flags") or [])
@@ -191,9 +191,9 @@ def main():
     for root in sorted(Path("data/raw").iterdir()):
         if not root.is_dir():continue
         metadata={}
-        manifest=root/"sample_manifest.json"
-        if manifest.exists():
-            metadata={r["path"]:r for r in json.loads(manifest.read_text(encoding="utf-8")) if r.get("status")=="downloaded"}
+        for manifest in [root/"sample_manifest.json", root/"item_manifest.json"]:
+            if manifest.exists():
+                metadata.update({r["path"]:r for r in json.loads(manifest.read_text(encoding="utf-8")) if r.get("status")=="downloaded"})
         for path in sorted(root.rglob("*.png")):
             rows.append(inspect(path,root.name,metadata.get(path.as_posix()),root.name in synthetic_review))
     raw_count=len(rows)
@@ -206,7 +206,7 @@ def main():
     summaries=[]
     for sid, group in groups.items():
         raw=[r for r in group if r["path"].startswith("data/raw/")]
-        small=[r for r in group if r["role"] in {"single_image_candidate","synthetic_sample","mixed_tiles_require_selection"} and max(r["width"],r["height"])<=64 and not r["empty"]]
+        small=[r for r in group if r["role"] in {"single_image_candidate","synthetic_sample","synthetic_item_candidate","mixed_tiles_require_selection"} and max(r["width"],r["height"])<=64 and not r["empty"]]
         summaries.append(dict(source=sid,raw_pngs=len(raw),derived_grid_cells=len(group)-len(raw),
                               small_review_images=len(small),unique_visible_small=len({r['canonical_rgba_sha256'] for r in small}),
                               raw_exact_duplicates=len(raw)-len({r['sha256'] for r in raw}),

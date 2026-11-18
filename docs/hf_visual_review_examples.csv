@@ -1,0 +1,5 @@
+source_id,row_idx,source_category,item_class,path,observed_issue,proposed_action,status
+hf_pixelart172k,89231,historical_weapons,weapon,data/raw/hf_pixelart172k/items/weapon/0089231.png,Helmet image and caption assigned to weapon category,relabel_armor_shield,review_annotation_only_original_preserved
+hf_pixelart172k,116324,melee_weapons,weapon,data/raw/hf_pixelart172k/items/weapon/0116324.png,Pike rendered as a fish instead of a polearm,remove_from_weapon_review_food_or_creature,review_annotation_only_original_preserved
+hf_pixelart172k,150630,melee_weapons,weapon,data/raw/hf_pixelart172k/items/weapon/0150630.png,Red fish-like silhouette does not match sword prompt,remove_from_weapon_semantic_review,review_annotation_only_original_preserved
+hf_pixelart172k,88524,farming_and_garden_tools,tool,data/raw/hf_pixelart172k/items/tool/0088524.png,Viking character instead of a fruit-picking tool,exclude_character_from_item_pool,review_annotation_only_original_preserved

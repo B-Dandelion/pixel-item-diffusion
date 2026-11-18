@@ -1,0 +1,57 @@
+{
+  "seed": 42,
+  "status": "candidate_collection_only_labels_and_quality_unverified",
+  "hf_pixelart172k": {
+    "class_caps": {
+      "weapon": 1800,
+      "armor_shield": 1200,
+      "material": 1800,
+      "potion": 1000,
+      "food": 1800,
+      "book_scroll": 1000,
+      "tool": 1000,
+      "treasure_accessory": 1500,
+      "rpg_misc": 1000,
+      "skill_effect_optional": 300
+    },
+    "categories": {
+      "melee_weapons": "weapon",
+      "ranged_and_magic_weapons": "weapon",
+      "historical_weapons": "weapon",
+      "armour_and_shields": "armor_shield",
+      "gems_ores_and_materials": "material",
+      "rocks_minerals_and_crystals": "material",
+      "crops_and_herbs": "material",
+      "potions_and_alchemy": "potion",
+      "fruits": "food",
+      "vegetables": "food",
+      "food": "food",
+      "food_more": "food",
+      "seafood_meat_dairy": "food",
+      "breads_bakery": "food",
+      "scrolls_books_and_runes": "book_scroll",
+      "hand_tools": "tool",
+      "farming_and_garden_tools": "tool",
+      "currency_keys_and_awards": "treasure_accessory",
+      "magic_items_and_relics": "treasure_accessory",
+      "treasure_loot_and_gear": "treasure_accessory",
+      "accessories": "treasure_accessory",
+      "rpg_items": "rpg_misc",
+      "spell_and_particle_effects": "skill_effect_optional",
+      "status_and_buff_icons": "skill_effect_optional"
+    }
+  },
+  "hf_krea16": {
+    "groups": {
+      "blade": "weapon", "blunt": "weapon", "polearm": "weapon",
+      "ranged": "weapon", "magic_weapon": "weapon", "explosive": "weapon",
+      "body_armor": "armor_shield", "helm": "armor_shield", "shield": "armor_shield",
+      "footwear": "armor_shield", "headwear": "armor_shield", "garment": "armor_shield",
+      "gems": "material", "mineral": "material", "plant": "material",
+      "potion": "potion", "book_scroll": "book_scroll", "tool": "tool",
+      "dessert": "food", "drink": "food", "fruit": "food", "savory": "food", "vegetable": "food",
+      "jewelry": "treasure_accessory", "relic": "treasure_accessory", "arcane": "treasure_accessory",
+      "container": "rpg_misc", "light": "rpg_misc"
+    }
+  }
+}

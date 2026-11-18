@@ -25,6 +25,7 @@ results/contact_sheets/
 results/raw_preview.png
 results/*.json
 results/candidate_analysis/
+results/item_review/
 results/archive/
 results/collection_history/
 tmp/
